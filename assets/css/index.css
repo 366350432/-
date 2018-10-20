@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*头部start*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 1.25926rem;
+  padding-left: 0.44444rem;
+  padding-right: 0.44444rem;
+  line-height: 1.25926rem;
+  font-size: 0.44444rem;
+  background-color: #ddd;
+  border: 1px solid #ddd; }
+  .header span {
+    position: absolute;
+    top: 0.55556rem;
+    left: 2.5rem;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 0.14815rem;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent; }
+  .header .iconfont {
+    font-size: 0.59259rem;
+    color: #636563; }
+  .header .search {
+    margin-left: 0.68519rem; }
+
+/*头部end*/

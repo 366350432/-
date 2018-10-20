@@ -1,0 +1,37 @@
+@function rem($px){
+  @return $px/108px*1rem;
+}
+
+/*头部start*/
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  height: rem(136px);
+  padding-left: rem(48px);
+  padding-right: rem(48px);
+  line-height: rem(136px);
+  font-size:rem(48px);
+  background-color:#ddd;
+  border:1px solid #ddd; 
+  span{
+    position:absolute;
+    top:rem(60px);
+    left:rem(270px);
+    display: inline-block;
+    width:0;
+    height:0;
+    border-width: rem(16px);
+    border-style:solid;
+    border-color: #333 transparent transparent transparent
+  }
+  .iconfont{
+    font-size:rem(64px);
+    color: #636563; 
+  }
+  .search{
+    margin-left: rem(74px);
+  }
+}
+
+/*头部end*/

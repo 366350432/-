@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     reload = browser.reload,
     // 引入sass模块
     sass = require('gulp-sass');
-// 阿斯顿发萨达减法雷克萨家分店
+
 // 2.定义任务
 gulp.task('server', function() {
     browser.init({
@@ -24,5 +24,5 @@ gulp.task('server', function() {
 gulp.task('scss', function() {
     gulp.src('./assets/scss/*.scss')
         .pipe(sass())
-        .pipe(gulp.dest('./dist/css'))
+        .pipe(gulp.dest('./assets/css'))
 });

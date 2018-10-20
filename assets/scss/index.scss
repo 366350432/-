@@ -12,7 +12,6 @@
   padding-right: rem(48px);
   line-height: rem(136px);
   font-size:rem(48px);
-  background-color:#ddd;
   border:1px solid #ddd; 
   span{
     position:absolute;
@@ -35,3 +34,114 @@
 }
 
 /*头部end*/
+
+/*分类列表 start*/
+.category{
+  .category-item{
+    display:flex;
+    align-items: center;
+    height: rem(216px);
+    padding-left: rem(48px);
+    padding-right: rem(48px);
+    border: 1px solid #ddd;
+    img{
+      width: rem(120px);
+      height: rem(120px);
+      border-radius:rem(12px); 
+    }
+    .content{
+      margin-left: rem(48px);
+      .title{
+        display: flex;
+        line-height: rem(48px);
+        h3{
+          font-size:rem(48px);
+        }
+        .circle{
+          
+          width:rem(28px);
+          height: rem(28px);
+          margin-left: rem(18px);
+          margin-right: rem(18px);
+          margin-top: rem(10px);
+          background-color: #4a9eff;
+          border-radius: 50%;
+        }
+        .desc{
+          font-size : rem(36px);
+          color:#b5b2b5;
+        }
+      }
+    }
+    p{
+      margin-top: rem(18px);
+      font-size:rem(36px);
+      color:#b5b2b5;
+    }
+  }
+}
+/*分类列表 end*/
+
+/*底部导航 start*/
+.nav{
+  position:fixed;
+  bottom:0;
+  display: flex;
+  align-items: center;
+  width:100%; 
+  height:rem(144px);
+  font-size:rem(26px);
+  text-align: center;
+  background-color:#ddd;
+
+  li{
+    flex: 1;
+    a{
+      display: block;
+      color:#636563;
+    }
+    .iconfont{
+      font-size: rem(70px);
+    }
+    span{
+      display: inline-block;
+      width:rem(112px);
+      height:rem(112px);
+      background-color:#e78273;;
+      text-align: center;
+      font-size:rem(42px);
+      line-height: rem(112px);
+      color:#fff;
+      border-radius: 50%;
+    }
+  }
+}
+/*底部导航 end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
